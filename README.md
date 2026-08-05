@@ -6,7 +6,7 @@ concepts, aligned to Microsoft's **SC-300: Identity and Access Administrator** e
 Rather than just studying for the exam, this repo documents each concept as a real configuration —
 built, screenshotted, and explained in terms of the problem it solves, not just the steps to click through.
 
-**Jump to:** [User Identities](docs/01-user-identities) · [Authentication & Access](docs/02-authentication-access) · [Identity Governance](docs/04-identity-governance)
+**Jump to:** [User Identities](user-identities) · [Authentication & Access](docs/02-authentication-access) · [Identity Governance](docs/04-identity-governance)
 
 ## Scope
 
