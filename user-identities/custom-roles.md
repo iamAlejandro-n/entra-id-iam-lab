@@ -1,4 +1,4 @@
-# [custom and entra roles]
+# [custom and build-in roles]
 
 ## Scenario
 
