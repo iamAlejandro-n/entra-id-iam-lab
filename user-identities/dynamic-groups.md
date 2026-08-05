@@ -1,4 +1,4 @@
-# [Topic Name]
+# [Dynamic groups]
 
 ## Scenario
 
