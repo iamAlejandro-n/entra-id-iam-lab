@@ -9,6 +9,6 @@ SC-300 weight: 20-25%
 - [Administrative units](AU.md) 
 - [Custom vs. built-in roles](custom-roles.md) least-privilege assignment
 - [External identities](external-identities.md) — B2B guest invite & cross-tenant access settings
-- [ ] Hybrid identity concepts (Entra Connect / Cloud Sync)
+- [Hybrid identity concepts](hybrid.md) (Entra Connect / Cloud Sync)
 
 
