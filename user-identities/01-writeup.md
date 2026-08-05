@@ -4,7 +4,7 @@ SC-300 weight: 20-25%
 
 ## Topics
 
-- [users User creation & bulk import](users) (CSV)
+- [users User creation & bulk import](Users) (CSV)
 - [ ] Dynamic groups (rule-based membership)
 - [ ] Administrative units & delegated helpdesk role
 - [ ] Custom vs. built-in roles, least-privilege assignment
