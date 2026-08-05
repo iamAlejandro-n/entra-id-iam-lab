@@ -51,8 +51,5 @@ Every write-up under `docs/` follows the same format:
 1. **Scenario** — the real-world problem this configuration solves
 2. **Configuration steps** — what was built in the portal/PowerShell/Graph
 3. **Screenshot(s)** — redacted evidence of the working configuration
-4. **What this demonstrates** — the underlying IAM concept, not just the click-path
+4. **What this demonstrates** — the underlying IAM concept
 
-## Status
-
-🚧 In progress — see individual domain folders for current coverage.
