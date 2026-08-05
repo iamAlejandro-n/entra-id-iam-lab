@@ -39,8 +39,7 @@ entra-id-iam-lab/
 ├── 01-user-identities/
 ├── 02-authentication-access/
 ├── 04-identity-governance/
-├── diagrams/        # architecture / policy flow diagrams
-└── screenshots/     # tenant ID, UPNs, and object GUIDs redacted
+
 ```
 
 ## How each topic is documented
