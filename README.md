@@ -36,17 +36,16 @@ This lab focuses on three of the four SC-300 domains:
 ```
 entra-id-iam-lab/
 ├── README.md
-├── docs/
-│   ├── 01-user-identities/
-│   ├── 02-authentication-access/
-│   └── 04-identity-governance/
+├── 01-user-identities/
+├── 02-authentication-access/
+├── 04-identity-governance/
 ├── diagrams/        # architecture / policy flow diagrams
 └── screenshots/     # tenant ID, UPNs, and object GUIDs redacted
 ```
 
 ## How each topic is documented
 
-Every write-up under `docs/` follows the same format:
+Every write-up under `User Identities · Authentication & Access · Identity Governance` follows the same format:
 
 1. **Scenario** — the real-world problem this configuration solves
 2. **Configuration steps** — what was built in the portal/PowerShell/Graph
