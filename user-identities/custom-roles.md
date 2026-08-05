@@ -1,4 +1,4 @@
-# [Dynamic groups]
+# [custom and entra roles]
 
 ## Scenario
 
