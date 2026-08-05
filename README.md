@@ -6,7 +6,7 @@ concepts, aligned to Microsoft's **SC-300: Identity and Access Administrator** e
 Rather than just studying for the exam, this repo documents each concept as a real configuration —
 built, screenshotted, and explained in terms of the problem it solves, not just the steps to click through.
 
-**Jump to:** [User Identities](user-identities) · [Authentication & Access](docs/02-authentication-access) · [Identity Governance](docs/04-identity-governance)
+**Jump to:** [User Identities](user-identities) · [Authentication & Access](authentication-access) · [Identity Governance](identity-governance)
 
 ## Scope
 
@@ -15,9 +15,9 @@ This lab focuses on three of the four SC-300 domains:
 | # | SC-300 Domain | Weight | Covered here |
 |---|----------------|--------|--------------|
 | 1 | Implement and manage user identities | 20-25% | ✅ [user-identities](user-identities) |
-| 2 | Implement authentication and access management | 25-30% | ✅ [docs/02-authentication-access](docs/02-authentication-access) |
+| 2 | Implement authentication and access management | 25-30% | ✅ [docs/02-authentication-access](authentication-access) |
 | 3 | Plan and implement workload identities | 20-25% | ⛔ out of scope |
-| 4 | Plan and implement identity governance | 20-25% | ✅ [docs/04-identity-governance](docs/04-identity-governance) |
+| 4 | Plan and implement identity governance | 20-25% | ✅ [docs/04-identity-governance](identity-governance) |
 
 ## Environment
 
