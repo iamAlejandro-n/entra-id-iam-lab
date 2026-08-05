@@ -29,7 +29,7 @@ This lab focuses on three of the four SC-300 domains:
 
 1. Sign up for the [Microsoft 365 Developer Program](https://developer.microsoft.com/microsoft-365/dev-program) — free tenant with sample users/groups
 2. Activate a free Entra ID P2 trial from the Entra admin center (**Identity Governance** → **Licenses**)
-3. Follow the write-ups under `docs/` in order — each one is self-contained
+3. Follow the write-ups under `User Identities · Authentication & Access · Identity Governance`
 
 ## Repo structure
 
