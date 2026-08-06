@@ -5,7 +5,7 @@ SC-300 weight: 25-30%
 ## Topics
 
 - [Authentication methods policy](Auth.md) (Authenticator push, FIDO2/passkeys)
-- [Self-service password reset](SSRP.md) (SSPR)
+- [Self-service password reset](SSRP.md) (SSPR.md)
 - [Conditional Access](ca.md) — block legacy auth
       Conditional Access — require MFA for admin roles
       Conditional Access — require compliant device
