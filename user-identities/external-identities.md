@@ -1,4 +1,4 @@
-# [external identities]
+# External Identities
 
 ## Scenario
 
