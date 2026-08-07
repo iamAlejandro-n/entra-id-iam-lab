@@ -1,8 +1,8 @@
 # [Administrative Units]
 
 ## Scenario
-Administrative units is a very important tool in any tenant to create a container of users, groups, computers.
-Global admin roles grant control over the entire tenant — every user, every group, every device, everywhere. That's a problem the moment an org has more than one region, department, or business unit, because giving a helpdesk team in one office global User Administrator rights means they can also reset the CEO's password or manage users in a department they have nothing to do with. This is a real need for any organization with delegated IT — school districts, universities, multi-national companies, or holding companies with separate subsidiaries. Admins need Administrative Units so they can scope a role assignment down to a specific slice of the directory instead of handing out tenant-wide power just to let someone reset passwords for their own team.
+Administrative units is a very important tool in any tenant to create a **container** of users, groups, computers.
+Global admin roles grant control over the entire tenant — every user, every group, every device, everywhere. That's a problem the moment an org has more than one region, department, or business unit, because giving a helpdesk team in one office global User Administrator rights means they can also reset the CEO's password or manage users in a department they have nothing to do with. This is a real need for any organization with delegated IT — school districts, universities, multi-national companies, or holding companies with separate subsidiaries. Admins need Administrative Units so they can **scope**a role assignment down to a specific slice of the directory instead of handing out tenant-wide power just to let someone reset passwords for their own team.
 ## Configuration steps
 
 1. In Entra admin center, go to Identity > Roles & admins > Administrative units > New administrative unit.
