@@ -1,4 +1,4 @@
-# [custom and build-in roles]
+# custom and build-in roles
 
 ## Scenario
 Built-in roles (like User Administrator or Helpdesk Administrator) are broad, Microsoft-defined bundles of permissions — they often grant **more than a specific job actually needs**. A helpdesk tech who should only be able to reset passwords might get a built-in role that also lets them create/delete users or manage licenses, which **violates least privilege**. Security teams and compliance-driven organizations (finance, healthcare, government contractors — anywhere audits matter) need the ability to build a role with the exact set of permissions a job requires, no more. This matters any time a built-in role is "close enough but not quite right" — e.g., a role that can only reset passwords for a specific department but nothing else, or a role that can read sign-in logs but not modify anything. Custom roles let admins match access precisely to job function instead of picking the closest oversized built-in option.
