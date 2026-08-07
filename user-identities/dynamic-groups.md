@@ -1,4 +1,4 @@
-# [Dynamic groups]
+# Dynamic groups
 
 ## Scenario
 Static groups require someone to manually add/remove members every time a person joins, moves, or leaves. which doesn't scale and inevitably **drifts out of date** (people keep access after they've moved teams, new hires don't get access on day one). **IT admins and security teams** need group membership to stay accurate automatically, especially when that membership drives real consequences like which Conditional Access policy applies, which licenses get assigned, which apps show up in the user's My Apps, or which distribution list they're on. Any org with regular headcount changes — new hires, transfers, departures — needs dynamic groups so membership self-corrects the moment a user's department, job title, office location change, without IT having to remember to update anything.
