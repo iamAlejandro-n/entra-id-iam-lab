@@ -1,4 +1,4 @@
-# [Administrative Units]
+# Administrative Units
 
 ## Scenario
 Administrative units is a very important tool in any tenant to create a **container** of users, groups, computers.
