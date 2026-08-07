@@ -1,4 +1,4 @@
-# [hybrid]
+# hybrid
 
 ## Scenario
 
