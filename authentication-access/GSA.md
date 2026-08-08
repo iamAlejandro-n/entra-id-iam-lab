@@ -1,4 +1,4 @@
-# [Global secure access]
+# Global secure access
 
 ## Scenario
 
