@@ -12,5 +12,4 @@ SC-300 weight: 25-30%
       Conditional Access — location-based block
 - [Authentication strengths / authentication context](Auth-strength-context.md)
 - [Identity Protection](ID-protection.md) — user risk policy — sign-in risk policy
-- [Global Secure Access](GSA.md) (optional stretch topic)
-
+- [Global Secure Access](GSA.md) 
