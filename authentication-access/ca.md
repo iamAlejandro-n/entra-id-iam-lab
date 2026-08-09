@@ -1,4 +1,4 @@
-# [Conditional access]
+# Conditional access
 
 ## Scenario
 
