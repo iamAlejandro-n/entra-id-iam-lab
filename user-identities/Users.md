@@ -16,7 +16,7 @@ Organizations need new users everyday and sometimes hundreds of users at a time.
 
 *(redact tenant ID, UPNs, and object GUIDs before committing)*
 
-![here is a screenshot of the csv](../../screenshots/FILENAME.png)
+![here is a screenshot of the csv](../../screenshots/bulk create.png)
 
 ## What this demonstrates
 
