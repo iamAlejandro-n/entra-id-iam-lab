@@ -21,13 +21,13 @@ This lab focuses on three of the four SC-300 domains:
 
 ## Environment
 
-- Microsoft 365 Developer Program tenant (free, sample users/groups)
+- Azure free account
 - Microsoft Entra ID P2 trial (required for PIM, access reviews, entitlement management,
   Identity Protection risk policies)
 
 ### Reproducing this lab
 
-1. Sign up for the [Microsoft 365 Developer Program](https://developer.microsoft.com/microsoft-365/dev-program) — free tenant with sample users/groups
+1. Sign up for the [Azure) — free tenant 
 2. Activate a free Entra ID P2 trial from the Entra admin center (**Identity Governance** → **Licenses**)
 3. Follow the write-ups under `User Identities · Authentication & Access · Identity Governance`
 
@@ -50,4 +50,6 @@ Every write-up under `User Identities · Authentication & Access · Identity Gov
 2. **Configuration steps** — what was built in the portal/PowerShell/Graph
 3. **Screenshot(s)** — redacted evidence of the working configuration
 4. **What this demonstrates** — the underlying IAM concept
+
+this will demonstrate the basics understanding of entra id
 
