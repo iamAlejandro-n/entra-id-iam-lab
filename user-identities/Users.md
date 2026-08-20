@@ -14,9 +14,9 @@ Organizations need new users everyday and sometimes hundreds of users at a time.
 
 ## Screenshot
 
-*(redact tenant ID, UPNs, and object GUIDs before committing)*
+here is my bulk create. I added 50 users through a csv file.
+<img width="1920" height="1080" alt="bulkcreate" src="https://github.com/user-attachments/assets/14f5df91-713a-46b9-92fc-a11698103a90" />
 
-![here is a screenshot of the csv](<img width="1920" height="1080" alt="bulkcreate" src="https://github.com/user-attachments/assets/2d5721c6-671b-4582-822c-b5a3ca644b61" />)
 
 ## What this demonstrates
 
