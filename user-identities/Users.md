@@ -14,7 +14,7 @@ Organizations need new users everyday and sometimes hundreds of users at a time.
 
 ## Screenshot
 
-here is my bulk create. I added 50 users through a csv file.
+here is my bulk create. I added 50 users through a csv file. with bulk create its easy to add attributes for dynamic grouping, rbac and more.
 <img width="1920" height="1080" alt="bulkcreate" src="https://github.com/user-attachments/assets/14f5df91-713a-46b9-92fc-a11698103a90" />
 
 
