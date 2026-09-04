@@ -5,7 +5,7 @@ Built-in roles (like User Administrator or Helpdesk Administrator) are broad, Mi
 
 ## Configuration steps
 
-1. In Entra admin center, go to Identity > Roles & admins > Roles & admins > New custom role.
+1. In Entra admin center, go to Identity > Roles & admins > All roles > New custom role.
 2. Start new or clone an existing built-in role as a baseline ( you just remove permissions you don't need).
 3. Name role and add a description explaining its intended scope.
 4. Permissions tab, select only the specific permissions needed (e.g., microsoft.directory/users/password/update for a password-reset-only role). then create role.
@@ -13,10 +13,9 @@ Built-in roles (like User Administrator or Helpdesk Administrator) are broad, Mi
 6. Test with the assigned account: confirm they can perform the permitted action and are blocked from anything outside that permission set.
 
 ## Screenshot
-
-*(redact tenant ID, UPNs, and object GUIDs before committing)*
-
-![description](../../screenshots/FILENAME.png)
+<img width="1920" height="1080" alt="custom role (1)" src="https://github.com/user-attachments/assets/1968df5a-f0e8-4178-a264-f609076d2f32" />
+My custom role grants only password reset and read-only profile access, nothing else and is easily auditable. W
+hile the built-in Helpdesk Administrator role bundles those same two abilities together with extra permissions (forcing sign-outs, managing Microsoft support tickets, monitoring service health) that you didn't explicitly choose and can't remove.
 
 ## What this demonstrates
 
