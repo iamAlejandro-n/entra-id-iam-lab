@@ -14,10 +14,9 @@ Global admin roles grant control over the entire tenant — every user, every gr
 
 ## Screenshot
 
-*(redact tenant ID, UPNs, and object GUIDs before committing)*
+<img width="1920" height="1080" alt="au" src="https://github.com/user-attachments/assets/b52c3db7-3691-4ac5-b130-64273177eaeb" />
 
-![description](../../screenshots/FILENAME.png)
-
+In this screenshot I show on the left my administrative unit creation and below it the users in the Au. I added users in Sweden usage location to be managed by a helpdesk admin. On the right I showed a user that was not in the AU and below it one that was in the AU. On my global account, it says that the user in the Au, I couldn't change the password while another user located in USA did allow me to change password. Only the helpdesk admin can control the Au and helpdesk scoped to the Au cannot manage outide the AU.
 ## What this demonstrates
 
 This proves **least privilege** through scoped delegation — the principle that administrative power should be bounded to the smallest scope necessary for the job, not granted at the broadest scope for convenience. It's the organizational/structural counterpart to RBAC: RBAC controls what actions a role can take, while Administrative Units control where (over which set of objects) that role applies. 
