@@ -15,9 +15,10 @@ Static groups require someone to manually add/remove members every time a person
 
 ## Screenshot
 
-*(redact tenant ID, UPNs, and object GUIDs before committing)*
+Here are the dynamic groups I made. I made 2 types of security groups, department and usageLocation. 
 
-![description](../../screenshots/FILENAME.png)
+<img width="1920" height="1080" alt="dynamic groups (1)" src="https://github.com/user-attachments/assets/afd6758c-e64a-41e5-ba21-b0cbc981b654" />
+
 
 ## What this demonstrates
 
