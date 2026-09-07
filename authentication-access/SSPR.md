@@ -14,9 +14,12 @@ Forgotten passwords are one of the highest-volume tickets any IT helpdesk handle
 
 ## Screenshot
 
-set sspr, 2 or 1 methods, require registration, notify admins
+**1**)in password reset i enabled the feature starting with a small group the it group **2**) I set the requirement to two methods. **3**)turn on notifications for when users or admins when password was changed 
+<img width="1920" height="1080" alt="sspr methods1" src="https://github.com/user-attachments/assets/56937dbc-cbca-439d-8e84-fb4352fc6390" />
+<img width="1920" height="1080" alt="sspr methods2" src="https://github.com/user-attachments/assets/db0dade3-4b53-4317-955e-1080a5b593fa" />
+**4**)a user was prompted to set up a second authentication method which was email **5**) after adding email it confirms the two methods to reset password. **6**) here was me activating a password reset. **7**) and here are the 2 conditions which was authenticator otp and the email.
 
-![description](../../screenshots/FILENAME.png)
+
 
 ## What this demonstrates
 
