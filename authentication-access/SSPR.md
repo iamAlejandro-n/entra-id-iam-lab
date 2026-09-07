@@ -5,7 +5,7 @@
 Forgotten passwords are one of the highest-volume tickets any IT helpdesk handles — and every one of those tickets costs time, costs money, and (if the verification process is weak) is a social-engineering risk in itself, since a helpdesk tech resetting a password over the phone has to trust the caller is who they claim to be. Every organization with more than a handful of users needs a way for people to prove their own identity through pre-registered methods and reset their own password without ever calling IT. This especially matters for large user bases where password-reset volume alone can overwhelm a helpdesk, and for security teams who want a consistent, auditable verification process instead of an inconsistent human judgment call on the phone. 
 ## Configuration steps
 
-1. In Entra admin center, go to Identity > Users > All users > Password reset (or Protection > Password reset).
+1. In Entra admin center, go to Identity > Users > All users > Password reset.
 2. Set "Self service password reset enabled" to All or a scoped group 
 3. Under Authentication methods, choose how many methods are required and which methods count (Authenticator app, email)  enable strong methods
 4. Under Registration, set whether users are required to register at next sign-in and configure the number of days before re-confirming their methods.
@@ -14,7 +14,7 @@ Forgotten passwords are one of the highest-volume tickets any IT helpdesk handle
 
 ## Screenshot
 
-*(redact tenant ID, UPNs, and object GUIDs before committing)*
+set sspr, 2 or 1 methods, require registration, notify admins
 
 ![description](../../screenshots/FILENAME.png)
 
