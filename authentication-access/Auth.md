@@ -5,7 +5,7 @@
 Passwords alone are a well-known weak point — phishable, reusable, and easily compromised. But different users and scenarios have different needs: a frontline worker sharing a kiosk device can't use the same method as an office worker with a personal smartphone, and some orgs want to eliminate passwords entirely for high-value accounts. Security teams need centralized control over which authentication methods are allowed tenant-wide (or scoped to specific groups) — enabling strong methods like Microsoft Authenticator push or FIDO2 security keys, phasing out weak ones like SMS/voice, and rolling out passwordless options — rather than leaving it up to individual user choice or legacy defaults. This matters for any org trying to raise its authentication baseline, meet compliance requirements (e.g., phishing-resistant MFA mandates), or reduce helpdesk password-reset volume.
 
 ## Configuration steps
-1. In Entra admin center, go to Protection > Authentication methods > Policies.
+1. In Entra admin center, go to Authentication methods > Policies.
 2.Review the list of available methods (Microsoft Authenticator, FIDO2 security key, Temporary Access Pass, Certificate-based auth) we want to avoid  weak methods(SMS, Voice call)
 3. For each method, set Enable/Disable and scope it to "All users" or a specific group
 4. For Microsoft Authenticator specifically number matching should be on, since it closes MFA fatigue/push-bombing gaps.
@@ -13,10 +13,11 @@ Passwords alone are a well-known weak point — phishable, reusable, and easily 
 6. Save the policy, confirm changes reflect in the policy list and test.
 
 ## Screenshot
+<img width="1920" height="1080" alt="authentication methods" src="https://github.com/user-attachments/assets/9609c4a9-0c89-4ec7-9c0f-6112df2a989c" />
 
-*(redact tenant ID, UPNs, and object GUIDs before committing)*
+here are the authentication methods i have enabled and disabled. I sign in as a user using **microsoft authenticator**.
 
-![description](../../screenshots/FILENAME.png)
+
 
 ## What this demonstrates
 
