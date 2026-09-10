@@ -11,7 +11,7 @@ A username and password alone doesn't tell you how risky a sign-in is — the sa
 5. Define Grant controls: what's required to get in — require MFA, require compliant device, require hybrid-joined device, or block access.
 6. Set the policy to "Report-only" if you would like to review how the policy would behave though logs
 7. test policies
-8. we are going to block legacy authentication protocols entirely, require MFA for all admin roles, require a compliant device for accessing sensitive apps, and block sign-ins from unexpected countries.
+8. we are going to block legacy authentication protocols entirely, require MFA for all admin roles (passwordless MFA strength), require mfa for standard users, and block sign-ins from unexpected countries.
 ## Screenshot
 
 *(redact tenant ID, UPNs, and object GUIDs before committing)*
