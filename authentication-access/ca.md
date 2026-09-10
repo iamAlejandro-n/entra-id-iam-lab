@@ -4,7 +4,7 @@
 A username and password alone doesn't tell you how risky a sign-in is — the same valid credentials could be entering from a company laptop on the corporate network, or from an unknown device in a country the user has never traveled to. Applying the same access rule to every sign-in regardless of context is both too loose (real threats get through) and too strict (legitimate users get friction they don't need). Security teams need to make access decisions dynamically, based on who is signing in, what they're trying to access, and the conditions around it (device compliance, location, app sensitivity, sign-in risk) — granting or blocking access accordingly. Every org handling sensitive data or regulated compliance requirements needs this, since "MFA for everyone everywhere" is a blunt instrument and "no controls" is a breach waiting to happen.
 ## Configuration steps
 
-1. In Entra admin center, go to Protection > Conditional Access > Policies > New policy.
+1. In Entra admin center, go to Conditional Access > Policies > New policy. disable security default if haven't already.
 2. Define Users: who the policy applies to (all users, a specific role like Global Admin, or a group) and explicitly exclude a break-glass emergency access account to avoid tenant lockout.
 3. Define Target resources: which apps or actions this policy covers .
 4. Define Conditions: the context that triggers the policy — e.g., locations, device platforms, or sign-in risk level.
