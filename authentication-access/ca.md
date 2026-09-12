@@ -11,12 +11,14 @@ A username and password alone doesn't tell you how risky a sign-in is — the sa
 5. Define Grant controls: what's required to get in — require MFA, require compliant device, require hybrid-joined device, or block access.
 6. Set the policy to "Report-only" if you would like to review how the policy would behave though logs
 7. test policies
-8. we are going to block legacy authentication protocols entirely, require MFA for all admin roles (passwordless MFA strength), require mfa for standard users, and block sign-ins from unexpected countries.
+8. we are going to block legacy authentication protocols entirely, require MFA for all admin roles (passwordless MFA strength), require mfa for standard users
 ## Screenshot
+First before we create conditional access policies I made break glass accounts that are used as emergency accounts incase i get locked out of my tenant. I exclude these accounts from all CA policies. After i create new policy from template or from scratch, name it, select admin directory roles, exclude breakglass, grant access requiring mfa authentication strength.
+<img width="1920" height="1080" alt="ca creation" src="https://github.com/user-attachments/assets/0ec08698-3766-4a97-956f-e5fb19e1f794" />
 
-*(redact tenant ID, UPNs, and object GUIDs before committing)*
 
-![description](../../screenshots/FILENAME.png)
+<img width="1920" height="1080" alt="lockout result" src="https://github.com/user-attachments/assets/edac20f4-d7d0-4d91-9997-cb9cde3085c5" />
+Here i show the policy is created, on and not in report only. I was locked out of my admin account and blocked from login which is why its recommended to start in report only. In sign in logs is where i looked for further troubleshooting.
 
 ## What this demonstrates
 
