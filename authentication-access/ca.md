@@ -18,7 +18,7 @@ First before we create conditional access policies I made break glass accounts t
 
 
 <img width="1920" height="1080" alt="lockout result" src="https://github.com/user-attachments/assets/edac20f4-d7d0-4d91-9997-cb9cde3085c5" />
-Here i show the policy is created, on and not in report only. I was locked out of my admin account and blocked from login which is why its recommended to start in report only. In sign in logs is where i looked for further troubleshooting.
+Here i show the policy is created, on and not in report only. I was locked out of my admin account and blocked from login which is why its recommended to start in report only. In sign in logs is where i looked for further troubleshooting. Failed the admin mfa policy.
 
 ## What this demonstrates
 
