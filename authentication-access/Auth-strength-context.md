@@ -24,9 +24,9 @@ i created a new auth stregth that allows passwordless MFA like authenticator app
 6. Test: access the low-risk part of the app normally, then trigger the tagged sensitive action and confirm the step-up prompt requires the stronger method.
 ## Screenshot
 <img width="1920" height="1080" alt="ca creation (2)" src="https://github.com/user-attachments/assets/c4068093-ee35-4675-88fb-3a0c8d0cb2c8" />
-first i created an authentication context, then i applied it to a new conditional authe 
+first i created an authentication context(name and descriptions), then i applied it to a new conditional access policy(users: my admin for a test, excusions: breakglass accounts, grant: my authentication stregth from above,target resources and select the context option)
 <img width="1920" height="1080" alt="lockout result (1)" src="https://github.com/user-attachments/assets/44f313b6-fdd2-4b7b-b47b-2c79ac0a2025" />
-
+next i went to protected actions and selected auth contexed named "protect ca changes" with all the rules. Finally i tested the protected action and it wouldnt let me change without reauthentication. 
 ## What this demonstrates
 
 This proves out risk-proportional, granular step-up authentication — moving beyond "MFA yes/no at the app level" to enforcing the right strength of proof, at the right moment, for the specific action being taken. Authentication strength proves you can define what "strong enough" actually means. Authentication context proves you can apply that bar inside an application rather than being limited to gating entire apps — which is the real-world gap most basic CA setups miss, since sensitive actions are usually a small subset of what an app does. Together they demonstrate the zero-trust principle of least-privilege applied to authentication itself.
