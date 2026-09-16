@@ -14,11 +14,12 @@ Credential theft doesn't announce itself — a stolen password gets used from an
 7. Walk through remediation: as the flagged user, complete the required MFA/password reset challenge and confirm the risk state clears; as an admin, confirm you can manually dismiss or confirm a risk on a user in the report.
 
 ## Screenshot
-
-<img width="1920" height="1080" alt="user risk" src="https://github.com/user-attachments/assets/c9dcf955-11ce-4d3f-bf62-9d2c9d98cbce" />
 this user risk policy will detect if my users have been compromised and will require MFA to prove they are legitimate users. After they will be required to change their password
-<img width="1920" height="1080" alt="sign in risk" src="https://github.com/user-attachments/assets/21eeabe3-9c9c-4f1c-b787-9a399169a24a" />
+<img width="1920" height="1080" alt="user risk" src="https://github.com/user-attachments/assets/c9dcf955-11ce-4d3f-bf62-9d2c9d98cbce" />
 sign in risk will detect if sign in are malicious ; impossible travel, suspicious  device, malicious ip. this policy will require you to complete MFA.  
+
+<img width="1920" height="1080" alt="sign in risk" src="https://github.com/user-attachments/assets/21eeabe3-9c9c-4f1c-b787-9a399169a24a" />
+
 ## What this demonstrates
 
 This proves out continuous, adaptive risk evaluation as a security control — moving past the idea that authentication is a one-time gate at sign-in and treating it as an ongoing signal that gets scored and reacted to. It demonstrates the difference between static Conditional Access (fixed rules you wrote in advance) and dynamic risk-based access (Microsoft's threat intelligence and behavioral analytics deciding in real time whether this specific sign-in looks legitimate). This is the practical core of zero trust: never assume a successful password entry means "this is really the user" — keep evaluating risk signals throughout the session and respond automatically when something doesn't look right.
