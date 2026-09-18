@@ -17,10 +17,9 @@ Even with good provisioning controls, access naturally goes stale over time — 
 9. Confirm at the review's end date that denied users were automatically removed from the group/role, and check the review's results/history for an audit trail.
 
 ## Screenshot
+in this lab i made an IT group-assignable role for all members of IT. This access review will review if all members located in it have Department=IT. If any other department is shown they must be removed. Chances if members have a different department they were once in the IT team and changed department but remained in the group.
 
-*(redact tenant ID, UPNs, and object GUIDs before committing)*
 
-![description](../../screenshots/FILENAME.png)
 
 ## What this demonstrates
 
