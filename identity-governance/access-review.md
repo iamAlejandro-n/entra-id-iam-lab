@@ -1,3 +1,5 @@
+
+
 # Access Review 
 
 ## Scenario
@@ -18,8 +20,9 @@ Even with good provisioning controls, access naturally goes stale over time — 
 
 ## Screenshot
 in this lab i made an IT group-assignable role for all members of IT. This access review will review if all members located in it have Department=IT. If any other department is shown they must be removed. Chances if members have a different department they were once in the IT team and changed department but remained in the group.
+<img width="1920" height="1080" alt="ar" src="https://github.com/user-attachments/assets/47437313-62db-461e-98eb-b67a9fcf728c" />
 
-
+<img width="1920" height="1080" alt="grapgh " src="https://github.com/user-attachments/assets/55a41316-ffa3-41ad-ac07-5f516f0a1a08" />
 
 ## What this demonstrates
 
