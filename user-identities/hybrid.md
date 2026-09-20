@@ -13,9 +13,7 @@ Most established organizations don't start in the cloud — they already have an
 
 ## Screenshot
 
-*(redact tenant ID, UPNs, and object GUIDs before committing)*
 
-![description](../../screenshots/FILENAME.png)
 
 ## What this demonstrates
 
