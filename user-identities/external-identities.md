@@ -1,4 +1,4 @@
-# External Identities
+# External Identities (wip)
 
 ## Scenario
 Every local account an org creates for an external person is an identity it now has to manage forever — provisioning it, remembering it exists, revoking it when the engagement ends. In practice, these accounts are the ones most likely to get forgotten: a contractor's project ends, nobody offboards the account, and it sits active with standing access indefinitely — a classic orphaned-account finding in any security audit.B2B guest access solves this by never creating a duplicate, independently-managed credential in the first place. What you're managing instead is a much smaller surface: the guest object and its resource assignments in your directory, not a full password/MFA-bearing account.
