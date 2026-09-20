@@ -1,4 +1,4 @@
-# hybrid
+# hybrid (wip)
 
 ## Scenario
 Most established organizations don't start in the cloud — they already have an on-prem Active Directory with tons of user accounts, group policies, and application dependencies built around it. Ripping that out and starting fresh in Entra ID isn't realistic. But those same orgs still want cloud apps (M365, SaaS tools) with modern authentication, MFA, and Conditional Access. IT admins at any organization with an existing on-prem AD footprint — which is most mid-size and large enterprises — need a way to extend their existing identities into the cloud instead of managing two separate, disconnected identity stores (which leads to mismatched passwords, duplicate accounts, and inconsistent access). Hybrid identity solves this by synchronizing on-prem AD accounts into Entra ID so users get one identity that works both on-prem and in the cloud.
