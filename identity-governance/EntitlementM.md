@@ -17,10 +17,10 @@ Requesting access the traditional way — emailing IT, filing a ticket, waiting 
 10. Confirm access automatically expires (or triggers a re-request) at the configured date.
 
 ## Screenshot
-
-*(redact tenant ID, UPNs, and object GUIDs before committing)*
-
-![description](../../screenshots/FILENAME.png)
+<img width="1920" height="1080" alt="em" src="https://github.com/user-attachments/assets/03769e7a-b8e7-4cc3-a574-2356914ef797" />
+<img width="1920" height="1080" alt="helpdesk request applrover " src="https://github.com/user-attachments/assets/70d0f021-7b29-4548-9ed4-40e40dae39ed" />
+<img width="1920" height="1080" alt="admin request applrover " src="https://github.com/user-attachments/assets/d589e132-2ce2-487e-a544-a42cd6a3068f" />
+<img width="1920" height="1080" alt="prove" src="https://github.com/user-attachments/assets/ad18c02b-da21-4a47-b1ed-b43dd260c2fd" />
 
 ## What this demonstrates
 
