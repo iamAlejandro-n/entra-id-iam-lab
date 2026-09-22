@@ -14,7 +14,10 @@ contractors/external partners accessing a SharePoint site with sensitive data. Y
 
 <img width="1920" height="1080" alt="tou" src="https://github.com/user-attachments/assets/1555a21d-9000-4636-9a94-83bae5ffc5ba" />
 
+first you must create a term of use pdf to apply to the new term we will create. then add the term and configure the settings you want. finally create a conditional access with scope and under grand apply the TOU. 
+below is the tpu i used 
 
+[lab_terms_of_use.pdf](https://github.com/user-attachments/files/32510633/lab_terms_of_use.pdf)
 ## what this demonstrates
 Legal/compliance accountability — you have a timestamped, per-user, per-version acceptance record, which is what actually holds up if a contractor claims "I never agreed to that."
 Grant controls beyond MFA — shows you understand CA isn't just "require MFA everywhere," it's a flexible policy engine with multiple grant control types that can combine.
