@@ -1,4 +1,4 @@
-# identity lifecycle
+# Terms of use
 
 ## Scenario
 
