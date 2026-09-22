@@ -10,5 +10,6 @@ SC-300 weight: 20-25%
 - [Entitlement management](EntitlementM.md) — access package with multi-stage approval
 - [Access reviews](acess-review.md) — group/app membership
 - [Lifecycle workflows](lifecycle.md) — join/leave automation
+- [terms of use](tou.md)
 
 
