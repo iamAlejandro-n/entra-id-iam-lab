@@ -4,7 +4,7 @@
 contractors/external partners accessing a SharePoint site with sensitive data. Your org wants to legally document that anyone accessing that resource explicitly agreed to acceptable-use terms — auditable per-user, with a timestamp — before Conditional Access even lets them in.
 
 ## Configuration steps
-1. go to identity governance, terms of use, new term
+1. go to conditional access, terms of use, new term
 2. add pdf and configure settings
 3. create a conditional access policy scoped to a target group and resources
 4. under grand, select the TOU
@@ -12,6 +12,7 @@ contractors/external partners accessing a SharePoint site with sensitive data. Y
 
 ## SCREENSHOTS
 
+<img width="1920" height="1080" alt="tou" src="https://github.com/user-attachments/assets/1555a21d-9000-4636-9a94-83bae5ffc5ba" />
 
 
 ## what this demonstrates
