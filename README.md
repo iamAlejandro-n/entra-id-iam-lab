@@ -53,3 +53,6 @@ Every write-up under `User Identities · Authentication & Access · Identity Gov
 
 this will demonstrate the basics understanding of entra id
 
+
+## Documentation
+
