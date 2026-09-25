@@ -1,3 +1,4 @@
+
 # Entra ID IAM Lab
 
 A hands-on Microsoft Entra ID lab built to learn and demonstrate identity and access management
@@ -56,3 +57,4 @@ this will demonstrate the basics understanding of entra id
 
 ## Documentation
 
+[entra_id_lab_audit_log.md.pdf](https://github.com/user-attachments/files/32633962/entra_id_lab_audit_log.md.pdf)
