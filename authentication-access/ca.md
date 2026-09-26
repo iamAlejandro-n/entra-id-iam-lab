@@ -16,9 +16,12 @@ A username and password alone doesn't tell you how risky a sign-in is — the sa
 First before we create conditional access policies I made break glass accounts that are used as emergency accounts incase i get locked out of my tenant. I exclude these accounts from all CA policies. After i create new policy from template or from scratch, name it, select admin directory roles, exclude breakglass, grant access requiring mfa authentication strength.
 <img width="1920" height="1080" alt="ca creation" src="https://github.com/user-attachments/assets/0ec08698-3766-4a97-956f-e5fb19e1f794" />
 
+Here i show the policy is created, on and not in report only. I was locked out of my admin account and blocked from login which is why its recommended to start in report only. In sign in logs is where i looked for further troubleshooting. Failed the admin mfa policy.
 
 <img width="1920" height="1080" alt="lockout result" src="https://github.com/user-attachments/assets/edac20f4-d7d0-4d91-9997-cb9cde3085c5" />
-Here i show the policy is created, on and not in report only. I was locked out of my admin account and blocked from login which is why its recommended to start in report only. In sign in logs is where i looked for further troubleshooting. Failed the admin mfa policy.
+
+trusted location. In this screenshot i made a sweden trusted location. After i made a conditional access policy for all sweden users (dynamic sweden users), excluding breakglass, all resources, condition -> location on ->all locations exclude sweden location, grand= block... all this means every location is blocked except sweden trusted location. bottom right is the test account. top right is the CA log result.  
+<img width="1920" height="1080" alt="trusted locations" src="https://github.com/user-attachments/assets/6280d893-6f52-4072-8a16-259c8c73af6a" />
 
 ## What this demonstrates
 
