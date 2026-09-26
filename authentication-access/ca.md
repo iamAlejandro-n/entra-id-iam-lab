@@ -20,7 +20,7 @@ Here i show the policy is created, on and not in report only. I was locked out o
 
 <img width="1920" height="1080" alt="lockout result" src="https://github.com/user-attachments/assets/edac20f4-d7d0-4d91-9997-cb9cde3085c5" />
 
-trusted location. In this screenshot i made a sweden trusted location. After i made a conditional access policy for all sweden users (dynamic sweden users), excluding breakglass, all resources, condition -> location on ->all locations exclude sweden location, grand= block... all this means every location is blocked except sweden trusted location. bottom right is the test account. top right is the CA log result.  
+trusted location. In this screenshot i made a sweden trusted location. After i made a conditional access policy for all sweden users (dynamic sweden users), excluding breakglass, all resources, condition -> location on ->all locations exclude sweden location, grand= block... all this means every location is blocked except sweden trusted location. bottom right is the test account. top right is the CA log result. i logged into the sweden account from the US and this policy is report only.
 <img width="1920" height="1080" alt="trusted locations" src="https://github.com/user-attachments/assets/6280d893-6f52-4072-8a16-259c8c73af6a" />
 
 ## What this demonstrates
