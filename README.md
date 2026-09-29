@@ -1,4 +1,4 @@
-[entra-id-lab-portfolio.md.pdf](https://github.com/user-attachments/files/32645871/entra-id-lab-portfolio.md.pdf)
+[entra-id-lab-portfolio.pdf](https://github.com/user-attachments/files/32779659/entra-id-lab-portfolio.pdf)
 here is a quick lab summary of my documentation for this lab. below will be the full logs.
 # Entra ID IAM Lab
 
