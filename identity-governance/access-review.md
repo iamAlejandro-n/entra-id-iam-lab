@@ -24,6 +24,10 @@ in this lab i made an IT group-assignable role for all members of IT. This acces
 
 <img width="1920" height="1080" alt="grapgh " src="https://github.com/user-attachments/assets/55a41316-ffa3-41ad-ac07-5f516f0a1a08" />
 
+
+audit memo 
+[audit-memo.pdf](https://github.com/user-attachments/files/32779722/audit-memo.pdf)
+
 ## What this demonstrates
 
 This proves out access certification as a recurring control, not a one-time event — the principle that granting access correctly once isn't enough; access needs to be periodically re-justified or it should expire. It closes the loop that provisioning tools like entitlement management and PIM open: those control how access is granted, access reviews control whether it should still exist. Together they demonstrate the full lifecycle view of IAM — grant, use, and continuously validate — rather than treating identity governance as "set access once and move on."
