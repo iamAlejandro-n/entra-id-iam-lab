@@ -58,4 +58,5 @@ this will demonstrate the basics understanding of entra id
 
 ## Documentation
 here is the full log of my project 
-[entra_id_lab_audit_log.md.pdf](https://github.com/user-attachments/files/32633962/entra_id_lab_audit_log.md.pdf)
+[entra_id_lab_project_log.pdf](https://github.com/user-attachments/files/32779713/entra_id_lab_project_log.pdf)
+
