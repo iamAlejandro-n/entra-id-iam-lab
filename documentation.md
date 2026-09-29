@@ -1,4 +1,5 @@
-lab summary[entra-id-lab-portfolio.md.pdf](https://github.com/user-attachments/files/32779580/entra-id-lab-portfolio.pdf)
+lab summary [entra-id-lab-portfolio.pdf](https://github.com/user-attachments/files/32779643/entra-id-lab-portfolio.pdf)
+
 
 
 
