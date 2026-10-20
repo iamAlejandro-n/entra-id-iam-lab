@@ -15,8 +15,8 @@ Onboarding and offboarding are usually handled by a patchwork of manual steps ac
 7. Enable the workflow.
 8. Test: update the trigger attribute on a test user, run the workflow on-demand, and check the Workflow history/run details to confirm each task executed successfully (account disabled, groups removed, etc.).
 
-## Screenshot(none)
-do to license restrictions ive decided that i would learn this on youtube since its just a small piece of the pie. 
+## Screenshot
+do to license restrictions ive decided that i would do it the manual way.
 
 
 ## What this demonstrates
