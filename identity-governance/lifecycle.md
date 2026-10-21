@@ -18,6 +18,59 @@ Onboarding and offboarding are usually handled by a patchwork of manual steps ac
 ## Screenshot
 do to license restrictions ive decided that i would do it the manual way.
 
+<img width="322" height="269" alt="onboarding" src="https://github.com/user-attachments/assets/492c039d-4207-48c0-9007-6b59fbbc3556" />
+## Joiner
+
+Trigger: HR enters the new hire in the HR system . That either creates an onboarding ticket or feeds the identity platform automatically. Often the account is created before the start date.
+
+What the analyst does:
+
+Confirm the request is legitimate. The ticket should come from HR or the hiring manager, not just anyone claiming someone is starting.
+Create the account (or verify the automation created it) with the correct attributes: department, job title, manager, location. These attributes matter because dynamic groups and policies key off them. Your lab showed this: a wrong usageLocation or department breaks licensing and group membership.
+Assign baseline access. Most orgs define a role-based access bundle per job role such as email, Teams, and the department’s shared drive.
+Handle credentials safely. Give the user a Temporary Access Pass or a first-login process so they can register MFA, instead of emailing a password. I experienced this in my lab.
+Document = ticket with what was granted and who approved it.
+
+Common failures: Missing manager attribute, access copied from “another person in the same role” (which copies their creep too), and accounts created late so the person starts with no access.
+
+## Mover (transfer, promotion, department change)
+
+This one is the most error-prone, so it’s where analysts add the most value.
+
+Trigger: HR records a job or department change, or the manager submits a transfer ticket.
+
+What the analyst does:
+
+Update the attributes (department, title, manager). If dynamic groups exist, some access updates automatically.
+Add the new role’s access through the normal request process.
+Remove the old role’s access. Nobody asks for this, so the analyst has to look for it. Compare what the person has against what the new role should have.
+Check for conflicts. The new role plus leftover old access might create a segregation of duties problem, such as someone who moved from Accounts Payable to Vendor Management and can now both create vendors and approve payments.
+Review privileged access. If the old role had admin rights, confirm they’re gone.
+
+Common failure: Access creep. New access gets added and old access never gets removed. This is what periodic access reviews exist to catch, like the four non-IT users I found with User Administrator rights.
+
+## Leaver
+
+Trigger: HR submits the termination, with an effective date and time. For involuntary terminations this is urgent and often time-critical, sometimes within minutes.
+
+What the analyst does:
+
+Disable the account at the effective time. Disable first and delete later, so you keep the audit trail and can recover if something goes wrong.
+Revoke sessions and tokens and reset the password, so existing logins stop working.
+Remove group memberships, roles, and app access, including privileged roles and any PIM eligibility.
+Handle licenses and devices. Reclaim the license, and make sure the device is wiped, retired, or returned 
+Deal with ownership. If the person owned groups, apps, service accounts, or approvals, reassign them. Orphaned ownership is a real audit finding.
+Preserve data per policy (mailbox, OneDrive) and then schedule deletion.
+Document it with timestamps
+
+Common failures: Delayed offboarding, forgotten SaaS apps that aren’t tied to the central directory, and shared or service accounts the person knew the password for.
+
+
+already did pieces of each:
+
+Joiner: Bulk user creation, the Temporary Access Pass for first sign-in, and group-based licensing.
+Mover: Dynamic groups reacting to the department attribute, plus access reviews catching leftover access.
+Leaver: Access package expiration and removal when a review denies access.
 
 ## What this demonstrates
 
