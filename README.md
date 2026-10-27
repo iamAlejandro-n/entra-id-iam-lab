@@ -18,7 +18,7 @@ This lab focuses on three of the four SC-300 domains:
 |---|----------------|--------|--------------|
 | 1 | Implement and manage user identities | 20-25% | ✅ [user-identities](user-identities) |
 | 2 | Implement authentication and access management | 25-30% | ✅ [authentication-access](authentication-access) |
-| 3 | Plan and implement workload identities | 20-25% | ⛔ out of scope for this project but i want to configuring sso) 10/26/26|
+| 3 | Plan and implement workload identities | 20-25% | ⛔ out of scope for this project|
 | 4 | Plan and implement identity governance | 20-25% | ✅ [identity-governance](identity-governance) |
 
 ## Environment
