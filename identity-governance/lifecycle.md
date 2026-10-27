@@ -18,7 +18,8 @@ Onboarding and offboarding are usually handled by a patchwork of manual steps ac
 ## Screenshot
 do to license restrictions ive decided that i would do it the manual way.
 
-<img width="322" height="269" alt="onboarding" src="https://github.com/user-attachments/assets/492c039d-4207-48c0-9007-6b59fbbc3556" />
+
+
 ## Joiner
 
 Trigger: HR enters the new hire in the HR system . That either creates an onboarding ticket or feeds the identity platform automatically. Often the account is created before the start date.
@@ -32,6 +33,10 @@ Handle credentials safely. Give the user a Temporary Access Pass or a first-logi
 Document = ticket with what was granted and who approved it.
 
 Common failures: Missing manager attribute, access copied from “another person in the same role” (which copies their creep too), and accounts created late so the person starts with no access.
+
+<img width="419" height="336" alt="onboarding" src="https://github.com/user-attachments/assets/602104df-a84b-4e60-ab6b-388388fa628d" /> first the account is created with attributes for dynamic access. in this example the It department will join the user to the IT group. This is used for RBAC.
+<img width="922" height="299" alt="b4 access" src="https://github.com/user-attachments/assets/5b55cb01-8e75-4f0d-bcc6-1d25aa1cf36e" /> here are the entitlement resources only requested and access by the IT group
+<img width="784" height="104" alt="app james" src="https://github.com/user-attachments/assets/0db9d749-e4f7-4012-952b-a3f38254326a" /> here are the apps assigned to the IT group
 
 ## Mover (transfer, promotion, department change)
 
@@ -48,7 +53,9 @@ Check for conflicts. The new role plus leftover old access might create a segreg
 Review privileged access. If the old role had admin rights, confirm they’re gone.
 
 Common failure: Access creep. New access gets added and old access never gets removed. This is what periodic access reviews exist to catch, like the four non-IT users I found with User Administrator rights.
-
+<img width="1540" height="286" alt="group update" src="https://github.com/user-attachments/assets/99879638-a542-46b4-b3cb-0c64ce7c1af5" /> After changing departments from IT to sales the groups automatically changed
+<img width="1807" height="574" alt="new access package" src="https://github.com/user-attachments/assets/ebcc8fe6-3f5c-4377-a0f6-348ea3299d38" /> the access package also changed and is only showing what is available to the sales group. The previous resources do not show up. 
+<img width="1416" height="391" alt="app update" src="https://github.com/user-attachments/assets/0876a7b9-e074-4a1d-babe-77315b52e2be" /> the apps also updated to show what the sales group has access to and the app for It is not present.
 ## Leaver
 
 Trigger: HR submits the termination, with an effective date and time. For involuntary terminations this is urgent and often time-critical, sometimes within minutes.
