@@ -79,6 +79,11 @@ Joiner: Bulk user creation, the Temporary Access Pass for first sign-in, and gro
 Mover: Dynamic groups reacting to the department attribute, plus access reviews catching leftover access.
 Leaver: Access package expiration and removal when a review denies access.
 
+<img width="268" height="673" alt="accDisable" src="https://github.com/user-attachments/assets/4edecb76-cf79-4b91-a387-65751b8e34ec" /> disable account is the first step
+<img width="781" height="181" alt="redo mfa auth" src="https://github.com/user-attachments/assets/0090555f-4d03-48bf-b461-cac5b46bf07c" /> remove authentication already registered 
+<img width="613" height="139" alt="revoke session" src="https://github.com/user-attachments/assets/4c4e1d21-0ab8-4e57-bdb1-7d8b0be1d9a3" /> remove session tokens so sign out the user from all accounts 
+<img width="565" height="85" alt="lockedaccount" src="https://github.com/user-attachments/assets/92ec9aec-98c3-42ab-a324-2d3673a599fc" /> user attempting to log in while account disabled. while this we remove all access previously shown 
+
 ## What this demonstrates
 
 This proves out automating the identity lifecycle end-to-end so deprovisioning is guaranteed, not dependent on human follow-through. Everything in this lab: dynamic groups, entitlement management, and access reviews all assume identities enter and exit the system cleanly, and lifecycle workflows are what actually makes that true by tying provisioning and deprovisioning directly to an authoritative source of truth (HR attributes) instead of a manual ticket queue. The core principle is that offboarding is a security control, not just an HR formality — the single biggest identity risk in most real environments isn't a misconfigured policy, it's a departed employee whose access nobody remembered to remove.
