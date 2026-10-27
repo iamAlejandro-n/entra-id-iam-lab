@@ -2,8 +2,8 @@
 here is a quick lab summary of my documentation for this lab. below will be the full logs.
 # Entra ID IAM Lab
 
-A hands-on Microsoft Entra ID lab built to learn and demonstrate identity and access management
-concepts, aligned to Microsoft's **SC-300: Identity and Access Administrator** exam objectives.
+A hands-on Microsoft Entra ID lab built to learn and demonstrate **identity and access management
+concepts**, aligned to Microsoft's **SC-300: Identity and Access Administrator** exam objectives.
 
 Rather than just studying for the exam, this repo documents each concept as a real configuration —
 built, screenshotted, and explained in terms of the problem it solves, not just the steps to click through.
