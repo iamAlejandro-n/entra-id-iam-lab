@@ -1,6 +1,4 @@
-go to [documentation](documentation.md)
-[entra-id-lab-portfolio.pdf](https://github.com/user-attachments/files/32779659/entra-id-lab-portfolio.pdf)
-here is a quick lab summary of my documentation for this lab. below will be the full logs.
+go to [documentation](documentation.md) to see quick lab summary of my documentation, full logs for this lab, and audit memo + filled audit memo.
 # Entra ID IAM Lab
 
 A hands-on Microsoft Entra ID lab built to learn and demonstrate **identity and access management
