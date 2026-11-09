@@ -27,6 +27,7 @@ in this lab i made an IT group-assignable role for all members of IT. This acces
 
 audit memo 
 [audit-memo.pdf](https://github.com/user-attachments/files/32779722/audit-memo.pdf)
+[audit-memo.jpg.pdf](https://github.com/user-attachments/files/34561447/audit-memo.jpg.pdf)
 
 ## What this demonstrates
 
